@@ -8,7 +8,7 @@
 }
 
 .navbar {
-    width: 85%;
+    width: 95%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -103,7 +103,6 @@ ul {
 .fab2 {
     color: blanchedalmond;
     text-decoration:none;
-    padding: 8px;
     text-align: center;
     
 }
@@ -113,19 +112,20 @@ ul {
     cursor: pointer;
 }
 
-.contacto {
-    text-align: center;
-}
+
 .containColumn {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
-    padding: 40px 0 0 0;
+    padding: 40px 0 40px 0;
 }
-.formulario {
-    text-align: center;
-}
+
 label {
     padding: 3px;
+}
+p {
+    color: ivory;
+    text-align: center;
+
 }
