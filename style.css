@@ -63,22 +63,6 @@
 
 }
     
-.slide {
-    margin-top: 10px;
-}
-
-.slide img {
-    height: 65vh;
-}
-
-h5, p, button {
-    color: black;
-}
-
-.carousel-indicators {
-    width: 60%;
-    height: 60%;
-}
 .titulos {
     text-align:end;
     align-items: center;
@@ -86,6 +70,44 @@ h5, p, button {
     color: #ffff;
     background-color:#0d47a1 ;
     padding: 0 100px 0 0;
+}
+img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0%;
+}
+
+.contenedorFlex {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.rows {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+    
+}
+
+.card {
+    text-align: center;
+    width: 20%;
+    transition: 0.3s;
+    border-radius: 8px;
+    
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.card-text {
+    color: black;
 }
 
 footer {
@@ -122,10 +144,25 @@ ul {
 }
 
 label {
-    padding: 3px;
+    padding: 6px;
+        
 }
+
 p {
     color: ivory;
     text-align: center;
 
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
