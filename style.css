@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Open+Sans:wght@600;700&display=swap');
 
 * {
     margin: 0;
@@ -81,7 +82,7 @@ img {
 
 .contenedorFlex {
     width: 90%;
-    margin: 50px auto;
+    margin: 120px auto;
 }
 
 .rows {
@@ -153,6 +154,10 @@ p {
 
 }
 
+i {
+    margin: 5px 7px 0 0;
+}
+
 .contacto {
     display: flex;
     flex-direction: column;
@@ -203,10 +208,10 @@ input[type="submit"]:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 50px 0;
+    margin: 30px 0 0 0;
 }
 
-h1, h2{
+h1, h2, h3 {
     font-size: x-large;
 }
 
@@ -250,8 +255,15 @@ li {
 .nick {
     text-decoration: none;
     color: #ff758f;
+    font-family: 'Fugaz One', cursive;
+    font-size: 25px;
 }
 
 .nick:hover{
     color: #ff0a54;
+}
+
+.cuerpo {
+    color: black;
+    margin: 100px 30px;
 }
