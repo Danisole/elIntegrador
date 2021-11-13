@@ -143,10 +143,10 @@ ul {
     padding: 40px 0 40px 0;
 }
 
-label {
+/* label {
     padding: 6px;
-        
-}
+    width: auto;    
+} */
 
 p {
     color: ivory;
@@ -162,6 +162,8 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0%;
+    padding: 0%;
 }
 
 .formulario {
@@ -260,10 +262,143 @@ li {
 }
 
 .nick:hover{
-    color: #ff0a54;
+    color: #ffb4a2;
 }
 
 .cuerpo {
     color: black;
     margin: 100px 30px;
 }
+
+.modelos {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+
+.modelos .galeria{
+    width: 32%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 118, 192, 0.781);
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.overlay h2 {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.galeria:hover .overlay{
+    height: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .modelos{
+        width: 95%
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .modelos{
+        width: 80%
+    }
+
+    .modelos .galeria{
+        width: 45%; 
+        margin: 5px;
+            }
+}
+
+@media screen and (max-width: 480px) {
+    .titulos{
+        font-size: 90%;
+    }
+
+    .card{
+       margin: 10px;
+    }
+
+    .contenedorFlex{
+        margin: 60px auto;
+    }
+    .modelos{
+        width: 98%;
+        justify-content: center;
+    }
+
+    .modelos .galeria{
+        width: 90%; 
+    }
+
+    .containColumn{
+        flex-direction: column;
+        padding: 20px 0 20px 0;
+    }
+
+    .redesSociales{
+        text-align: center;
+        font-size: 15px;
+        margin: 0 0 10px 0;
+    }
+
+    .input-group{
+        width: 70%;
+    }
+   
+    p{
+        font-size: 60%;
+    }
+
+    .contain{
+        width: 100%;
+        height: 40vh;
+        background-image: url(./assets/fondo1.jpg);
+        background-size: cover;
+        background-position: center;
+        filter: contrast(120%);
+}
+    .contacto {
+        font-size: 15px;
+        margin: 10px 0 20px 0;
+    }
+
+    .logo{
+        width: 200px;
+    }  
+
+    a{
+        font-size: 15px;
+    }
+
+
+
+
+
