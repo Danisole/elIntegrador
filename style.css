@@ -337,7 +337,7 @@ li {
             }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 450px) {
     .titulos{
         font-size: 90%;
     }
@@ -347,7 +347,7 @@ li {
     }
 
     .contenedorFlex{
-        margin: 60px auto;
+        margin: 40px auto;
     }
     .modelos{
         width: 98%;
@@ -391,11 +391,12 @@ li {
     }
 
     .logo{
-        width: 200px;
+        width: 180px;
+        margin: 0 0 10px 0;
     }  
 
     a{
-        font-size: 15px;
+        font-size: 12px;
     }
 
 
